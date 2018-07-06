@@ -8,7 +8,7 @@
  * 
  *  Leave commented for autodetect
  */
-// #define ARDUINO_AVR_FEATHER32U4
+ #define ARDUINO_SAMD_FEATHER_M0
 
 /*
  * TX or RX mode for hardware. Available types:
@@ -27,7 +27,7 @@
  * FEATURE_TX_INPUT_PPM
  * FEATURE_TX_INPUT_SBUS
  */
-#define FEATURE_TX_INPUT_SBUS
+#define FEATURE_TX_INPUT_PPM
 
 #define DEBUG_SERIAL
 // #define DEBUG_PING_PONG
